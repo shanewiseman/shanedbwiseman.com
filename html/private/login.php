@@ -2,7 +2,7 @@
 
 if(isset($_POST["username"]) and isset($_POST["password"])){
 	
-	if($_POST["username"] == "swiseman" and $_POST["password"] == "wisemanss"){
+	if($_POST["username"] == "swiseman" and $_POST["password"] == "%%"){
 		session_start();
 		$_SESSION["established"] = 1;
 
